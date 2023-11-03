@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>api demo</title>
+</head>
+
+<body>
+    <h2>
+        api islemeyi oyrenme
+    </h2>
+
+    <label for="">adinizi girin </label><br>
+    <input type="text"><br>
+    <label for="">yasadiqiniz seher</label><br>
+    <input type="text"><br>
+    <label for="">dogum tarixi</label><br>
+    <input id="d" type="date"><br>
+    <label for="">cinsiet</label><br>
+    <input type="radio" name="GENDER" value="ERKEK">kisi
+    <input type="radio" name="GENDER" value="KADIN"> qadin<br>
+    <label for="">yas</label><br>
+    <input type="number"><br>
+    <button type="button">yarat</button>
+    <button id="goster" type="button">goster</button>
+    <button type="button">deyisikliyi yadda saqla</button>
+
+    <table border="1">
+        <thead>
+            <th>id</th>
+            <th>CUSTOMERNAME</th>
+            <th>CITY</th>
+            <th>BIRTHDATE</th>
+            <th>GENDER</th>
+            <th>AGE</th>
+        </thead>
+        <tbody id="create_row">
+
+        </tbody>
+    </table>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
